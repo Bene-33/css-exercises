@@ -29,8 +29,8 @@ button:hover {
   padding: 16px 24px;
   text-align: center;
 }
-
-/*Muster Lösung
+*/
+/*Muster Lösung */
 button {
   transition: transform .3s ease-in-out;
 }
@@ -38,4 +38,3 @@ button {
 button:hover {
   transform: scale(1.2)
 }
-*/
