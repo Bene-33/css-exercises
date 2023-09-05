@@ -15,12 +15,12 @@ body {
   /*solution Start*/
   display: flex;
   justify-content:space-between;
-  padding: 10px;
+  padding: 8px;
 }
 
 .links{
   display:flex;
-  gap: 10px;
+  gap: 16px;
 }
 .navigation, .profile{
   display:flex;
