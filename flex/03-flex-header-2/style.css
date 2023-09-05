@@ -13,19 +13,19 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   /*solution Start*/
-  display: flex;
-  justify-content:space-between;
-  padding: 8px;
+  display: flex; /*flex 4 header, row childs */
+  justify-content:space-between; /* space between items*/
+  padding: 8px; /* give some space between item and border*/
 }
 
 .links{
-  display:flex;
-  gap: 16px;
+  display:flex; /*another flex to row next childs*/
+  gap: 16px; /*give some space between links*/
 }
 .navigation, .profile{
-  display:flex;
-  align-items: center;
-  gap: 10px;
+  display:flex; /*antoher flex to row next childs*/
+  align-items: center; /*childs be centerd*/
+  gap: 10px; /*give some space between links*/
 
 }
 /*Solution End*/
