@@ -10,7 +10,33 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /*Start Solution*/
+  display: flex;
+  justify-content: center; /*center header*/
+  margin: 32px; /*add space between header and items*/
 }
+
+.main{
+  display: flex;
+  flex-direction: row; /*order them in row*/
+  justify-content: center;
+}
+
+.plant{
+  display: flex;
+  align-items: center; /*center img and text*/
+  flex-direction:column; /*set vertical order*/
+  margin: 26px; /*space between items 52/2 */
+  width: 200px; /*img width set*/
+}
+
+.text{
+  display: flex;
+  flex-wrap: wrap; /*set wrap for text*/
+  text-align: center; /*center text*/
+}
+
+/*End Solution*/
 
 /* do not edit this footer */
 .footer {
