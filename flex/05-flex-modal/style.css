@@ -20,11 +20,23 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 9px;
 }
 
 .header{
-  font-size: 26px; /*font lager then text*/
+  font-size: 20px; /*font lager then text*/
   font-weight: bold; /*header bold*/
+}
+
+.topbar{ /*align header and close button, space under header*/
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; 
+}
+
+.message{
+  flex: 1; /*align message right*/
 }
 
 .icon {
@@ -38,6 +50,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 15px; /*equal space around the item*/
+  align-self:flex-start;
 }
 
 .close-button {
@@ -66,7 +80,10 @@ button.continue {
   border: 1px solid royalblue;
   color: white;
 }
+.footer{ /*separte bottom buttons from the text*/
+margin-top: 10px;
 
+}
 button.cancel {
   background: white;
   border: 1px solid #ddd;
