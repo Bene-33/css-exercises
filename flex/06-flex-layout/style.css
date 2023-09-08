@@ -42,15 +42,14 @@ a{
 
 .header{
   display: flex;
-  justify-content:space-between; /*correct alignment to the sides*/
+
 }
 
 .footer{
   display:flex;
-  justify-content: space-between;
-  align-items:flex-end;
+
 }
 
 .right-links, .left-links{
-  display:flex;
+ display: flex;
 }
