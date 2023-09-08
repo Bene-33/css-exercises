@@ -29,3 +29,7 @@ input {
 ul{
   list-style-type: none; /*delete list marker*/
 }
+a{
+  text-decoration: none;
+  color: black;
+}
