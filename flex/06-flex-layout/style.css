@@ -5,10 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  display:flex; /*arrange main layout*/
+  flex-direction: column; /*push footer and header in right position*/
+  justify-content: space-between; /*push footer and header in right position*/
+  align-items: center; /*push footer and header in right position*/
 }
 
 img {
@@ -20,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px; /*size the buttons prettier*/
 }
 
 input {
@@ -42,14 +43,26 @@ a{
 
 .header{
   display: flex;
-
+  width: 100%; /*set width max so links go in the right corner*/
+  justify-content: space-between;
+  padding: 6px;
 }
 
 .footer{
   display:flex;
-
+  width: 100%; /*set width max so links go in the right corner*/
+  justify-content: space-between; /*set links in right corner*/
+  background-color:#eeeeee; /*footer right color*/
+  padding: 6px;
 }
 
 .right-links, .left-links{
- display: flex;
+ display: flex; /*arrange links correct in row*/
+}
+
+.content{
+  display: flex; 
+  flex-direction: column; /*column to order containers right*/
+  align-items: center; /* center all items */
+  justify-content: space-evenly; /*space between content containers*/
 }
