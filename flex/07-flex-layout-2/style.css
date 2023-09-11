@@ -37,15 +37,15 @@ body {
   background: royalblue;
   box-sizing: border-box;
   display: flex;
-  flex: 1 0 auto; /* fix width, no shrinking  */
-  padding: 16px;
-  
+  flex: 0 0 auto; /* fix width, no shrinking  */  
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 400px; /*fix width to let the containers wrap*/
+  margin: 30px; /*space between containers*/
 }
 
 a{
@@ -60,4 +60,6 @@ ul{
 
 .content{
   padding: 32px; /*padding around the cards*/
+  display:flex; /* let the card container wrap */
+  flex-wrap: wrap; /* let the card container wrap */
 }
