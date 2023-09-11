@@ -26,14 +26,38 @@ body {
   align-items: center; /*center footer vertical*/
 } 
 
+.main{
+  display: flex; /*use all space */
+  flex: 1; /*use all space */
+
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex: 1 0 auto; /* fix width, no shrinking  */
+  padding: 16px;
+  
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+a{
+  font-size: 24px; /*font correct*/
+  text-decoration: none; /*font correct*/
+  color: white; /*font correct*/
+}
+
+ul{
+  list-style-type: none; /*font correct*/
+}
+
+.content{
+  padding: 32px; /*padding around the cards*/
 }
