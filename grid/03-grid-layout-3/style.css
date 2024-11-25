@@ -6,7 +6,7 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .container div {
@@ -24,6 +24,7 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
+
 .logo{
   justify-self: start;
 }
@@ -32,6 +33,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .menu ul,
 .menu li {
   font-size: 16px;
@@ -41,6 +43,10 @@
 .sidebar {
   background-color: #C50208;
    grid-row: 2 / 4;
+   display: grid;
+   grid-template-rows: repeat(4, 1fr);
+   align-items: start;
+
 }
 
 .sidebar .photo {
