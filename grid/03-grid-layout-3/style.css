@@ -6,8 +6,7 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2,1fr);
 }
 
 .container div {
@@ -20,12 +19,23 @@
 
 .header {
   background-color: #393f4d;
-  grid-column: 1 / 6;
+  grid-column: 1 / 5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.logo{
+  justify-self: start;
 }
 
+.menu ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
 .menu ul,
 .menu li {
   font-size: 16px;
+  list-style: none;
 }
 
 .sidebar {
