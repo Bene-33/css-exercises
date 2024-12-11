@@ -46,9 +46,7 @@
   background-color: #C50208;
    grid-row: 2 / 4;
    display: grid;
-   grid-template-rows: repeat(4, 1fr);
-   align-items: start;
-
+   gap: 50px;
 }
 
 .sidebar .photo {
@@ -59,6 +57,10 @@
   border-radius: 10px;
 }
 
+.photo, .side-content{
+  display: grid;
+  align-items: center;
+}
 
 .sidebar .side-content {
   background-color: white;
